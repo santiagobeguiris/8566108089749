@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tracking Redirect</title>
+</head>
+<body>
+    <script type="text/javascript">
+        window.onload = function() {
+            var trackingNumber = '8566108089749';
+            var form = document.createElement('form');
+            form.method = 'POST';
+            form.action = 'http://www.gy137.com/';
+
+            var input = document.createElement('input');
+            input.type = 'hidden';
+            input.name = 'tracking_number';
+            input.value = trackingNumber;
+
+            form.appendChild(input);
+            document.body.appendChild(form);
+            form.submit();
+        };
+    </script>
+</body>
+</html>
